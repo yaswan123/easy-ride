@@ -1,0 +1,49 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: white !important;
+    color: #333;
+}
+header {
+    text-align: center;
+    background: linear-gradient(90deg, rgba(173, 216, 230, 1) 0%, rgba(255, 182, 193, 1) 100%);
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+a:hover {
+    color: #e0e0e0; 
+}
+h1 {
+    margin: 0;
+    color: #fff;
+}
+ol {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+ol li {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight:bold;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px auto;
+}
+.text-column {
+    text-align: left;
+}
+* {
+    box-sizing: border-box;
+}
+.english
+{
+    font-family: "Manrope", sans-serif;
+    font-size: 1.2rem;
+}
